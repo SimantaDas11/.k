@@ -23,6 +23,8 @@
   }
 
   .nav__logo {
+    position: relative;
+    top: -2rem;
     display: flex;
     width: 1.5rem;
   }
@@ -70,6 +72,7 @@
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    z-index: 10;
   }
 
   .nav__close {
@@ -111,6 +114,8 @@
   .main-headings{
     margin-top: 330px;
   }
+  
+
   
 }
 

@@ -19,6 +19,9 @@ headerButtons.forEach((button, index) => {
 	});
 });
 
+// _________________
+
+
 const headerButtons2 = document.querySelectorAll("nav div ul li");
 
 const mainContainers2 = document.querySelectorAll('.main-container');
