@@ -1,6 +1,11 @@
 @media screen and (max-width: 340px) {}
 
 @media screen and (max-width: 500px) {
+
+  header {
+    display: none;
+  }
+
   .nav-hidden {
     display: flex;
   }
@@ -88,7 +93,12 @@
     background-clip: text;
   }
 
+  .scroll-header {
+    background-color: var(--body-color);
+  }
 }
+
+
 
 @media screen and (max-width: 800px) {}
 
