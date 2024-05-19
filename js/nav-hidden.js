@@ -82,4 +82,4 @@ const sr = ScrollReveal({
 
 // sr.reveal(`.big-headings, .main-headings`, { delay: 100, origin: 'top' }) 
 // sr.reveal(`.main-img, .copyright-container`, { delay: 100, origin: 'top' })
-sr.reveal(`.main-img`, { interval: 100, origin: 'top' })
+sr.reveal(`.main-img`, { interval: 100, origin: 'right' })
