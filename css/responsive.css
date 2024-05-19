@@ -96,6 +96,18 @@
   .scroll-header {
     background-color: var(--body-color);
   }
+
+  .main-container {
+    position: relative;
+    margin-top: -9rem;
+    z-index: -1;
+  }
+  
+  
+  
+  
+  
+  
 }
 
 
