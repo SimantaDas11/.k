@@ -75,11 +75,11 @@ document.addEventListener('DOMContentLoaded', () => {
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
   distance: '60px',
-  duration: 2500,
-  delay: 100,
+  duration: 2000,
+  delay: 20,
   // reset: true
 })
 
 // sr.reveal(`.big-headings, .main-headings`, { delay: 100, origin: 'top' }) 
 // sr.reveal(`.main-img, .copyright-container`, { delay: 100, origin: 'top' })
-sr.reveal(`.main-img`, { interval: 100, origin: 'right' })
+sr.reveal(`.main-img, .main-headings`, { interval: 100, origin: 'right' })
